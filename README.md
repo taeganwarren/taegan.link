@@ -23,3 +23,5 @@ shorten() {
 }
 ```
 The npm package has support for providing your own slug to the url or will generate one for you if one is not provided.
+
+More info about how this works and how to make your own: https://www.youtube.com/watch?v=HL6paXyx6hM
