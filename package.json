@@ -1,0 +1,23 @@
+{
+  "name": "taegan.link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taeganwarren/taegan.link.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taeganwarren/taegan.link/issues"
+  },
+  "homepage": "https://github.com/taeganwarren/taegan.link#readme",
+  "devDependencies": {
+    "netlify-shortener": "^2.4.0"
+  }
+}
