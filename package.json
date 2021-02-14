@@ -2,6 +2,7 @@
   "name": "taegan.link",
   "version": "1.0.0",
   "description": "",
+  "baseUrl": "https://taegan.link",
   "main": "index.js",
   "scripts": {
     "shorten": "netlify-shortener"
