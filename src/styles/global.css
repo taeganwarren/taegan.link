@@ -1,0 +1,33 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 50%;
+	margin: auto;
+}
+
+.link-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-box h3, .link-box p {
+  margin: 20px 20px;
+  align-self: center
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+@media(max-width: 1000px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}

@@ -1,24 +1,35 @@
 {
   "name": "taegan.link",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
   "version": "1.0.0",
-  "description": "",
   "baseUrl": "https://taegan.link",
-  "main": "index.js",
+  "license": "0BSD",
   "scripts": {
+    "build": "node convert.js && gatsby build",
+    "develop": "node convert.js && gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "node convert.js && gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "shorten": "netlify-shortener"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1",
+    "netlify-shortener": "^2.4.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taeganwarren/taegan.link.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/taeganwarren/taegan.link/issues"
   },
-  "homepage": "https://github.com/taeganwarren/taegan.link#readme",
-  "devDependencies": {
-    "netlify-shortener": "^2.4.0"
-  }
+  "homepage": "https://github.com/taeganwarren/taegan.link#readme"
 }
