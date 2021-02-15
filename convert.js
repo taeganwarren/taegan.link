@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 
-var filePath = path.join(__dirname, '_redirects');
+var filePath = path.join(__dirname, '/static/_redirects');
 var f = fs.readFileSync(filePath, {encoding: 'utf-8'}, 
     function(err){console.log(err);});
 
