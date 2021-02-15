@@ -13,12 +13,7 @@ Ex: `shorten <domain> <slug>`
 ```
 shorten() {
         cd /home/taegan/programming/github/taegan.link
-        if [ "$2" ]
-        then
-                npm run shorten "$1" "$2"
-        else
-                npm run shorten "$1"
-        fi
+        npm run shorten "$1" "$2"
         cd -
 }
 ```
