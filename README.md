@@ -7,7 +7,7 @@ Simple personal URL shortner with netlify.
 Uses the netlify-shortener npm package to automatically add a given URL to the \_redirects file, push the changes to github, and copy the url to my clipboard.
 Netlify will then automatically detect and deploy those changes.
 
-I then have added this function to my `.zshrc` so I can do all of this with one simple command from anywhere in my terminal.
+I then have added this function to my `.zshrc` so I can do all of this with one command.
 
 Ex: `shorten <domain> <slug>`
 ```
@@ -21,4 +21,4 @@ The npm package has support for providing your own slug to the url or will gener
 
 More info about how this works and how to make your own: https://www.youtube.com/watch?v=HL6paXyx6hM
 
-2/15/21 Update: I have created a simple frontend with Gatsby to display all the current short links and their destinations. I have modified the netlify-shortener package to generate a json file with all the links and to build the project before commiting so the build process in netlify will be faster.
+2/15/21 Update: I have created a simple frontend with Gatsby to display all the current short links and their destinations. I have modified the netlify-shortener package to generate a json file with all the links and to build the project before commiting so the deploy process in netlify will be faster.
