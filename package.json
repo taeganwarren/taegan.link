@@ -4,6 +4,9 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "1.0.0",
   "baseUrl": "https://taegan.link",
+  "customRedirects": "static/_redirects",
+  "jsonOutputPath": "src/links.json",
+  "nsBuild": true,
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
