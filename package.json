@@ -3,6 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "baseUrl": "https://taegan.link",
+  "customRedirects": "public/_redirects",
   "jsonOutputPath": "links.json",
   "nsBuild": true,
   "scripts": {
