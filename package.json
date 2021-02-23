@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "baseUrl": "https://taegan.link",
   "customRedirects": "public/_redirects",
-  "jsonOutputPath": "links.json",
+  "jsonOutputPath": "src/links.json",
   "nsBuild": true,
   "scripts": {
-    "build": "node generate.js",
+    "build": "node src/generate.js",
     "shorten": "netlify-shortener"
   },
   "dependencies": {},
