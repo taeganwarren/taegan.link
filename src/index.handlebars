@@ -8,6 +8,13 @@
     <title>taegan.link</title>
 </head>
 <body>
-{{{body}}}
+    <div class="container">
+        {{#each links}}
+        <div class="link-box">
+            <h3><a href="{{shortLink}}">{{slug}}</a></h3>
+            <p><a href="{{link}}">{{link}}</a></p>
+        </div>
+        {{/each}}
+    </div>
 </body>
 </html>
